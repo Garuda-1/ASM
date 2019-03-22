@@ -1,0 +1,9 @@
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/rebuild_cache.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/multiply.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/edit_cache.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/add.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/echo.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/print_rax.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/count_words.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/count_lines.dir
+/home/oktet/CPP/cpp-course/helloasm/CMakeFiles/subtract.dir

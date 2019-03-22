@@ -1,0 +1,42 @@
+                section         .text
+                global          _start
+
+_start:
+
+loop:		xor		rax, rax
+		xor		rdi, rdi
+		mov		rsi, buf
+		mov		rdx, 1024
+		syscall
+
+		cmp		rax, 0
+		jl		read_fail
+		je		end	
+
+		mov		rdx, rax
+                mov             rax, 1
+                mov             rdi, 1
+                mov             rsi, buf
+                syscall
+
+		cmp		rax, 0
+		jl		write_fail
+
+		jmp		loop
+
+end:            mov             rax, 60
+                xor             rdi, rdi
+                syscall
+
+read_fail:
+write_fail:	ud2
+
+		section		.bss
+
+buf:		resb		1024
+
+
+                section         .rodata
+
+msg:            db              "Hello, world!",0x0a
+msg_size:       equ             $ - msg
