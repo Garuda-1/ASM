@@ -1,4 +1,4 @@
-# C++ programming course: NASM tasks
+# C++ programming course: NASM training
 
 Contents:
  - Hello world
